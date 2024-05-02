@@ -1,4 +1,4 @@
-from django.shortcuts import render
+'''from django.shortcuts import render
 from watch_list.models import Movie
 from django.http import JsonResponse
 
@@ -19,3 +19,4 @@ def movie_deatils(request,pk):
     }
     print(movie)
     return JsonResponse(data)
+'''
