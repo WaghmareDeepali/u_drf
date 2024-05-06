@@ -1,8 +1,8 @@
-'''from django.shortcuts import render
+from django.shortcuts import render
 from watch_list.models import Movie
 from django.http import JsonResponse
 
-# Create your views here.
+'''# Create your views here.
 def movie_list(request):
     movies=Movie.objects.all()
     data={'Movies':list(movies.values())}
